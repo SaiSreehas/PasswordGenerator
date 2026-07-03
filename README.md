@@ -2,100 +2,91 @@
 
 ## Description
 
-A Java-based console application that generates secure and customizable passwords based on user preferences. Users can specify the password length and choose whether to include numbers and special characters.
+The Password Generator is a Java console application that generates secure and customizable passwords based on user preferences. Users can specify the password length and choose whether to include numbers and special characters. The project demonstrates the use of Java programming concepts such as methods, conditional statements, loops, string manipulation, and random number generation.
 
 ## Features
 
-* Generate passwords of custom length
-* Option to include numeric characters
-* Option to include special characters
-* Random password generation
-* Input validation for password length
-* Simple and user-friendly console interface
+- Generate passwords of user-defined length
+- Option to include numbers
+- Option to include special characters
+- Random password generation
+- Console-based user interaction
+- Simple and easy-to-use interface
 
 ## Technologies Used
 
-* Java
-* Scanner Class
-* Random Class
-* StringBuilder
+- Java
+- Java Collections Framework (Scanner)
+- Random Class
 
 ## Concepts Used
 
-### Object-Oriented Programming (OOP)
-
-* Class creation using `PasswordGenerator`
-
-### User Input Handling
-
-* Implemented using the `Scanner` class
-
-### Random Number Generation
-
-* Used the `Random` class to generate random characters
-
-### String Manipulation
-
-* Implemented using `StringBuilder` for efficient password construction
-
-### Conditional Statements
-
-* Used to determine whether numbers and special characters should be included
-
-### Exception Handling
-
-* Validates minimum password length and throws an exception for invalid input
-
-## How It Works
-
-1. User enters the desired password length.
-2. User selects whether to include special characters.
-3. User selects whether to include numbers.
-4. The application generates a random password based on the selected options.
-5. The generated password is displayed on the console.
-
-## Sample Output
-
-Enter password length: 10
-
-Include special characters? (yes/no): yes
-
-Include numbers? (yes/no): yes
-
-Generated Password: AbcDe7@Xy!
+- Object-Oriented Programming Basics
+- Methods
+- Conditional Statements
+- Loops
+- StringBuilder
+- Random Number Generation
+- Exception Handling
+- User Input using Scanner
 
 ## Project Structure
 
 ```text
 PasswordGenerator/
-│
-└── PasswordGenerator.java
+│── PasswordGenerator.java
 ```
 
 ## How to Run
 
-1. Clone the repository.
-2. Open the project in Eclipse, IntelliJ IDEA, or VS Code.
-3. Compile the Java file:
+1. Install Java (JDK 8 or above).
+2. Compile the program:
 
 ```bash
 javac PasswordGenerator.java
 ```
 
-4. Run the application:
+3. Run the program:
 
 ```bash
 java PasswordGenerator
 ```
 
+4. Enter:
+   - Password length
+   - Whether to include numbers
+   - Whether to include special characters
+
+5. The application will generate a random password based on the selected options.
+
+## Sample Output
+
+```text
+Enter password length: 10
+Include special characters? (yes/no): yes
+Include numbers? (yes/no): yes
+
+Generated Password: AbcDef7@Xp
+```
+
+## Learning Outcomes
+
+- Java Programming Fundamentals
+- Console Application Development
+- User Input Handling
+- Random Password Generation
+- String Manipulation using StringBuilder
+- Exception Handling
+- Clean Code Organization
+
 ## Future Enhancements
 
-* Password strength indicator
-* Copy password to clipboard
-* GUI version using Java Swing or JavaFX
-* Custom character set selection
-* Password history management
+- Ensure at least one uppercase, lowercase, number, and special character in every password
+- Password strength indicator
+- Copy password to clipboard
+- GUI version using Java Swing or JavaFX
+- Export generated passwords to a file
 
 ## Author
 
-Sai Sreehas
+**Sai Sreehas**
